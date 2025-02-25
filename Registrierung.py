@@ -1,17 +1,23 @@
 import bcrypt
 import json
-import os
 from datetime import datetime
+from flask import Flask, request, session
+# os  kann später weg
+import os
 
+app = Flask(__name__)
+app.secret_key = "0815"
 
 def hash_passwort(passwort):
     return bcrypt.hashpw(passwort.encode("utf-8"), bcrypt.gensalt()).decode("utf-8") 
 
 def set_role(user_id):
     if user_id == 0:
-        return "admin"
+        session["rolle"] = 2
+        return 2 # Admin
     else:
-        return "guest"
+        session["rolle"] = 0
+        return 0 # Guest
     
 def benutzername_eingabe():
     benutzername = str(input("Benutzername: "))
@@ -74,6 +80,8 @@ def benutzerdaten_speichern(benutzername, hashed_passwort):
     # Alle Benutzerdaten speichern
     with open("benutzerdaten.json", "w") as datei:
         json.dump(benutzerdaten, datei, indent=4)
+
+        
 
 
 benutzername = benutzername_eingabe()

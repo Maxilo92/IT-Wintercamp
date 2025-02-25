@@ -13,5 +13,15 @@
         "benutzername": "Testnutzer",
         "hashed_passwort": "$2b$12$7gQi3zzTCRWUZStWIHuC/.XYPyxlBQmzG1tzAQPhJe4BHIK5Bu41C",
         "Registriert am": "2025-02-25 11:02:52"
+    },
+    {
+        "benutzername": "Nutzer",
+        "hashed_passwort": "$2b$12$2uFxmTP7fwRVtbLfA0NqT.1mstz/l6qGazlNWZAphM6VRd9nvOD/S",
+        "Registriert am": "2025-02-25 12:26:10"
+    },
+    {
+        "benutzername": "Test",
+        "hashed_passwort": "$2b$12$nQoCRsel2rr0RF152dxliu6xPECbpl65wqsBd6Uu1/3KNKkvEuYZ.",
+        "Registriert am": "2025-02-25 12:29:04"
     }
 ]

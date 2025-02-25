@@ -11,12 +11,12 @@ def set_role(user_id):
     if user_id == 0:
         return "admin"
     else:
-        return "user"
+        return "guest"
     
 def benutzername_eingabe():
     benutzername = str(input("Benutzername: "))
     benutzerdaten = benutzerdaten_laden()
-     # Durchsuche die Benutzerdaten nach dem eingegebenen Benutzernamen
+    # Durchsuche die Benutzerdaten nach dem eingegebenen Benutzernamen
     benutzer_gefunden = False
     for benutzer in benutzerdaten:
         if benutzer["benutzername"] == benutzername:

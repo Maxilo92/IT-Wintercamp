@@ -1,27 +1,7 @@
 [
     {
         "benutzername": "Max",
-        "hashed_passwort": "$2b$12$SxpTe3CdMV2/5sVNIJwyU.eGkhZhFvcmmrjwS2rduGbsv7m5HkH/.",
-        "Registriert am": "2025-02-25 10:52:46"
-    },
-    {
-        "benutzername": "Maxilo",
-        "hashed_passwort": "$2b$12$LWuWwFcB7s2d3Hn5p/8s.u0fx84Sa9aAJ7biaI2biDmK6N3wGXoFW",
-        "Registriert am": "2025-02-25 11:00:01"
-    },
-    {
-        "benutzername": "Testnutzer",
-        "hashed_passwort": "$2b$12$7gQi3zzTCRWUZStWIHuC/.XYPyxlBQmzG1tzAQPhJe4BHIK5Bu41C",
-        "Registriert am": "2025-02-25 11:02:52"
-    },
-    {
-        "benutzername": "Nutzer",
-        "hashed_passwort": "$2b$12$2uFxmTP7fwRVtbLfA0NqT.1mstz/l6qGazlNWZAphM6VRd9nvOD/S",
-        "Registriert am": "2025-02-25 12:26:10"
-    },
-    {
-        "benutzername": "Test",
-        "hashed_passwort": "$2b$12$nQoCRsel2rr0RF152dxliu6xPECbpl65wqsBd6Uu1/3KNKkvEuYZ.",
-        "Registriert am": "2025-02-25 12:29:04"
+        "hashed_passwort": "$2b$12$tHFPBH2YPGM83zniB98sVubqDRI3/2EMRN7igOM37oYnEgZT8JMlG",
+        "Registriert am": "2025-02-25 13:09:10"
     }
 ]
